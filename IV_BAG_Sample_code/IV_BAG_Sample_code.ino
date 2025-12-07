@@ -3,7 +3,7 @@
 // ------------------------------
 #define BLYNK_TEMPLATE_ID "TMPL3a8108C8H"
 #define BLYNK_TEMPLATE_NAME "IOT bsed IV Bag monitor"
-#define BLYNK_AUTH_TOKEN "L17-gVYbs89Lu6cVM82C3CPnqh6jwKgL"
+#define BLYNK_AUTH_TOKEN "L17-***************************"
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>

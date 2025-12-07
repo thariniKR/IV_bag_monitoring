@@ -1,0 +1,17 @@
+| Component                            | Pin on Component | Connect To (ESP32-S3) | Description                                       |
+| ------------------------------------ | ---------------- | --------------------- | ------------------------------------------------- |
+| **HX711 Load Cell Amplifier**        | **VCC**          | **3.3V**              | Power supply for HX711 *(ESP32-S3 is 3.3V logic)* |
+|                                      | **GND**          | **GND**               | Common ground                                     |
+|                                      | **DT (Data)**    | **GPIO 4**            | Data output from HX711                            |
+|                                      | **SCK (Clock)**  | **GPIO 5**            | Clock input for HX711                             |
+| **Load Cell Sensor**                 | Red              | HX711 **E+**          | Excitation +                                      |
+|                                      | Black            | HX711 **E-**          | Excitation −                                      |
+|                                      | White            | HX711 **A−**          | Signal −                                          |
+|                                      | Green            | HX711 **A+**          | Signal +                                          |
+| **16×2 I2C LCD (with I2C backpack)** | **VCC**          | **3.3V**              | Power for display                                 |
+|                                      | **GND**          | **GND**               | Common ground                                     |
+|                                      | **SDA**          | **GPIO 8**            | I2C Data                                          |
+|                                      | **SCL**          | **GPIO 9**            | I2C Clock                                         |
+| **Active Buzzer**                    | **+ (VCC)**      | **GPIO 10**           | Buzzer control pin                                |
+|                                      | **− (GND)**      | **GND**               | Common ground                                     |
+| **ESP32-S3 USB Port**                | —                | To PC                 | Power + programming                               |
